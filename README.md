@@ -1,6 +1,6 @@
 # 🕹️ Jogo do Binário - ESP32
 
-![Demonstração do Circuito](<img width="943" height="471" alt="image" src="https://github.com/user-attachments/assets/763ccfac-3dc0-4cd0-85c8-c8fe43a93e26" />)
+![Demonstração do Circuito](![Circuito do Jogo](Sem%20título.png))
 
 Um jogo interativo focado na conversão mental de caracteres da Tabela ASCII para o formato Binário, desenvolvido inteiramente em **C/C++** nativo para o microcontrolador **ESP32**. 
 
