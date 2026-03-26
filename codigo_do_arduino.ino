@@ -207,7 +207,7 @@ void Musica_Morte(){
 void INICIO(){
     Serial.println("BORA JOGAR O JOGO DO BINARIO NO ESP32 APERTE OS DOIS BOTOES BRANCOS PARA COMEÇAR");
 	while (digitalRead(PinoButtS) != LOW || digitalRead(PinoButtD) != LOW ){
-    Serial.print("");
+    delay(10);
 	
 	}
 	Musica_Inicio();
@@ -236,7 +236,8 @@ void FIM(){
     pontuacao = 0;
     digitalWrite(PinoLED1,HIGH);
     digitalWrite(PinoLED2,HIGH);
-    digitalWrite(PinoLED3,HIGH);    
+    digitalWrite(PinoLED3,HIGH);
+	Enviar = false;
 }
 
 void loop(){
@@ -246,7 +247,9 @@ void loop(){
     Serial.println(Letra_char);
     fase = 2;
   }
-
+  
+  
+  
   else if (fase == 2){
   JOGO();
   } 
