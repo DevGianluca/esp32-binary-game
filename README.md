@@ -4,7 +4,7 @@
 
 Um jogo interativo focado na conversão mental de caracteres da Tabela ASCII para o formato Binário, desenvolvido inteiramente em **C/C++** nativo para o microcontrolador **ESP32**. 
 
-🔗 **[Clique aqui para jogar e testar a simulação interativa no Wokwi](COLE_O_SEU_LINK_DO_WOKWI_AQUI)**
+🔗 **[Clique aqui para jogar e testar a simulação interativa no Wokwi](https://wokwi.com/projects/459591086664680449)**
 
 > **⚠️ AVISO IMPORTANTE SOBRE O INÍCIO:** > Existe uma pequena diferença na forma de iniciar o jogo entre as versões:
 > * **No Código Real (.ino):** Para começar, você deve pressionar os **dois botões brancos** simultaneamente.
