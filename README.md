@@ -1,10 +1,14 @@
 # 🕹️ Jogo do Binário - ESP32
 
-![Demonstração do Circuito](![Circuito do Jogo](Sem%20título.png))
+![Circuito do Jogo](Sem%20título.png)
 
 Um jogo interativo focado na conversão mental de caracteres da Tabela ASCII para o formato Binário, desenvolvido inteiramente em **C/C++** nativo para o microcontrolador **ESP32**. 
 
-🔗 **[Clique aqui para jogar e testar a simulação interativa no Wokwi](https://wokwi.com/projects/459591086664680449)**
+🔗 **[Clique aqui para jogar e testar a simulação interativa no Wokwi](COLE_O_SEU_LINK_DO_WOKWI_AQUI)**
+
+> **⚠️ AVISO IMPORTANTE SOBRE O INÍCIO:** > Existe uma pequena diferença na forma de iniciar o jogo entre as versões:
+> * **No Código Real (.ino):** Para começar, você deve pressionar os **dois botões brancos** simultaneamente.
+> * **Na Simulação Wokwi:** Devido a limitações de input simultâneo no navegador, basta pressionar apenas o **botão à direita** para iniciar a partida.
 
 ## 🎯 Características do Jogo
 * **Desafio Lógico:** O sistema gera uma letra aleatória e o jogador precisa inserir o valor binário correspondente (8 bits) sem usar calculadoras. Como não há limite de tempo, o foco é 100% na precisão!
